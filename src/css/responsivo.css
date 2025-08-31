@@ -117,16 +117,28 @@
         max-height: 300px;
     }
 
-    .tecnologia {
+     .tecnologia {
+        
         gap: 10px;
         background: linear-gradient(160deg, #333333, #1a1a1a, #403f3f);
+        margin: 0 12px;
     }
 
     .tecnologia .titulo {
         font-size: 25px;
         padding: 0 0 10px 0;
     }
+    .tecnologia ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+        gap: 15px;
+        padding: 0;
+    }
 
+    .tecnologia ul li {
+        list-style: none;
+    }       
     .tecnologia ul li i {
         font-size: 45px;
     }
@@ -140,3 +152,4 @@
     }
 
 }
+
